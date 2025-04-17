@@ -23,6 +23,8 @@ public class JogaJogoDaVelha {
                     continue;
                 }
 //                System.out.println(jogo.toString());
+
+
             }
             if (! jogo.venceuUsando().equals("empate")) {
                 System.out.println("Jogador ganhou utilizando: " + jogo.venceuUsando() );
